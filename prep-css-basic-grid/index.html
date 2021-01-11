@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      max-width: 32%;
+      margin: 5px;
+      background-color: grey;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum obcaecati repellendus nemo corrupti fugiat quam, earum ipsum eum eius eos, labore fuga magni placeat hic, dicta perferendis nisi. Ea non nobis laboriosam facere ipsa?
+        </p>
+        <img src="images/left-image.jpg">
+      </div>
+      <div class="column">  
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis commodi, neque corporis est minima rem fugit inventore doloremque itaque totam, quos magnam animi iste repellat aliquam magni sunt eligendi, architecto nobis labore illo maiores. Fuga.
+        </p>
+        <img src="images/center-image.jpg">
+      </div>
+      <div class="column">  
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam impedit dolor ducimus accusamus quo odio repellat, non praesentium dolores quis labore debitis, inventore adipisci perferendis optio. Rem dolorum perferendis laudantium, consequatur enim id explicabo suscipit?
+        </p>
+        <img src="images/right-image.jpg">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
